@@ -1665,7 +1665,7 @@ button:focus {
 }
 
 [class*="btn--"]:not(.btn--link):not(.btn--light) {
-    color: #262779;
+    color: #fff;
 }
 
 .btn {
