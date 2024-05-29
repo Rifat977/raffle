@@ -1,3 +1,5 @@
 core/vendor/
 */logs/
 */logs
+core/storage/framework/cache/data/*
+core/storage/logs/laravel.log
