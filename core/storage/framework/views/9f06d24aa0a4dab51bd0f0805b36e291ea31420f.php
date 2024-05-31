@@ -15,8 +15,8 @@
                                         href="<?php echo e(route('blog.details', [slug($item->data_values->title), $item->id])); ?>"><?php echo e(__(strLimit(@$item->data_values->title, 66))); ?></a>
                                 </h4>
                                 <ul class="blog-card__meta d-flex mb-4 flex-wrap">
-                                    <li>
-                                        <i class="las la-calendar"></i>
+                                    <li class="text-light">
+                                        <i class="las la-calendar text-light"></i>
                                         <?php echo e(showDateTime($item->created_at)); ?>
 
                                     </li>

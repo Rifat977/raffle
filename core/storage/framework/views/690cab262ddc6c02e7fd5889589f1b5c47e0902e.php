@@ -7,13 +7,13 @@
         <div class="container">
             <div class="row justify-content-between gy-5">
                 <div class="col-lg-4">
-                    <h2 class="mb-3"><?php echo e(__(@$contact->data_values->title)); ?></h2>
+                    <h2 class="mb-3 text-dark"><?php echo e(__(@$contact->data_values->title)); ?></h2>
                     <p><?php echo e(__(@$contact->data_values->short_details)); ?></p>
                     <div class="row gy-4 mt-3">
                         <div class="col-lg-12">
                             <div class="contact-info-card rounded-3">
                                 <h6 class="mb-3"><?php echo app('translator')->get('Office Address'); ?></h6>
-                                <div class="contact-info d-flex">
+                                <div class="contact-info d-flex text-light">
                                     <i class="las la-map-marked-alt"></i>
                                     <p><?php echo e(__(@$contact->data_values->address)); ?></p>
                                 </div>

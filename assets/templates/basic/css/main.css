@@ -13,14 +13,14 @@ html {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #fafafa;
+    color: #000000;
     font-size: 1rem;
     padding: 0;
     margin: 0;
     font-weight: 400;
     position: relative;
     line-height: 1.7;
-    background-color: #131340;
+    background-color: #f4f5f7;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -346,6 +346,7 @@ a:hover {
 .section-title {
     font-size: 2.25rem;
     font-weight: 500;
+    color: #000000;
 }
 
 @media (max-width: 767px) {
@@ -2525,7 +2526,7 @@ label {
 }
 
 header.header {
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 9;
 }

@@ -22,7 +22,7 @@
                         </div>
                         <div class="feature-card__content mt-4">
                             <h3 class="title">{{ __(@$feature->data_values->title) }}</h3>
-                            <p class="mt-3">{{ __(@$feature->data_values->description) }}</p>
+                            <p class="mt-3 text-light">{{ __(@$feature->data_values->description) }}</p>
                         </div>
                     </div><!-- feature-card end -->
                 </div>

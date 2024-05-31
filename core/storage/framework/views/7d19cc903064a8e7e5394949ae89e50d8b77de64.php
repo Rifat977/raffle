@@ -17,9 +17,9 @@
             <?php $__currentLoopData = $elements; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                 <div class="col-lg-3 col-sm-6 how-work-item wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.3s">
                     <div class="how-work-card">
-                        <div class="how-work-card__step text--base text-shadow--base"><?php echo e($loop->iteration); ?></div>
-                        <h3 class="title mt-4"><?php echo e(__(@$item->data_values->title)); ?></h3>
-                        <p class="mt-2"><?php echo e(__(@$item->data_values->content)); ?></p>
+                        <div class="how-work-card__step text--base"><?php echo e($loop->iteration); ?></div>
+                        <h3 class="title mt-4 text-dark"><?php echo e(__(@$item->data_values->title)); ?></h3>
+                        <p class="mt-2 text-dark"><?php echo e(__(@$item->data_values->content)); ?></p>
                     </div><!-- how-work-card end -->
                 </div>
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>

@@ -4,7 +4,7 @@
 
 <div class="overview-section pb-50">
     <div class="container">
-        <div class="row gy-sm-0 gy-4 overview-wrapper wow fadeInUp shadow" data-wow-duration="0.5s" data-wow-delay="0.3s">
+        <div class="row gy-sm-0 gy-4 overview-wrapper wow fadeInUp bg-light shadow" data-wow-duration="0.5s" data-wow-delay="0.3s">
             <?php $__currentLoopData = $counters; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $counter): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                 <div class="col-sm-4 overview-item">
                     <div class="overview-card">
@@ -13,7 +13,7 @@
                         </div>
                         <div class="overview-card__content">
                             <h3 class="amount text--base"><?php echo e(__(@$counter->data_values->number)); ?></h3>
-                            <p class="text-white"><?php echo e(__(@$counter->data_values->title)); ?></p>
+                            <p class="text-dark"><?php echo e(__(@$counter->data_values->title)); ?></p>
                         </div>
                     </div>
                 </div>

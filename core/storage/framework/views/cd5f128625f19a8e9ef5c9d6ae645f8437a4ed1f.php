@@ -7,4 +7,5 @@
     <?php endif; ?>
 <?php $__env->stopSection(); ?>
 
+
 <?php echo $__env->make($activeTemplate . 'layouts.frontend', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /srv/http/Files/core/resources/views/templates/basic/home.blade.php ENDPATH**/ ?>

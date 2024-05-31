@@ -29,7 +29,7 @@
         <hr class="mt-3">
         <div class="row align-items-center">
             <div class="col-md-6 text-md-start text-center">
-                <span class="footer-content__left-text"> @lang('Copyright') &copy;
+                <span class="footer-content__left-text text-light"> @lang('Copyright') &copy;
                     {{ now()->format('Y') }}, @lang('All Right Reserved By')
                     <a class="text--base" href="{{ route('home') }}">{{ @$general->site_name }}.</a>
                 </span>

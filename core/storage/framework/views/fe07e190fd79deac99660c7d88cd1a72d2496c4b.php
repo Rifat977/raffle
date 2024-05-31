@@ -29,7 +29,7 @@
         <hr class="mt-3">
         <div class="row align-items-center">
             <div class="col-md-6 text-md-start text-center">
-                <span class="footer-content__left-text"> <?php echo app('translator')->get('Copyright'); ?> &copy;
+                <span class="footer-content__left-text text-light"> <?php echo app('translator')->get('Copyright'); ?> &copy;
                     <?php echo e(now()->format('Y')); ?>, <?php echo app('translator')->get('All Right Reserved By'); ?>
                     <a class="text--base" href="<?php echo e(route('home')); ?>"><?php echo e(@$general->site_name); ?>.</a>
                 </span>

@@ -17,9 +17,9 @@
             @foreach($elements as $item)
                 <div class="col-lg-3 col-sm-6 how-work-item wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.3s">
                     <div class="how-work-card">
-                        <div class="how-work-card__step text--base text-shadow--base">{{ $loop->iteration }}</div>
-                        <h3 class="title mt-4">{{ __(@$item->data_values->title) }}</h3>
-                        <p class="mt-2">{{ __(@$item->data_values->content) }}</p>
+                        <div class="how-work-card__step text--base">{{ $loop->iteration }}</div>
+                        <h3 class="title mt-4 text-dark">{{ __(@$item->data_values->title) }}</h3>
+                        <p class="mt-2 text-dark">{{ __(@$item->data_values->content) }}</p>
                     </div><!-- how-work-card end -->
                 </div>
             @endforeach

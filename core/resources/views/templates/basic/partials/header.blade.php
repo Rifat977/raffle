@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header" style="background-color:#000000;">
     <div class="header__bottom">
         <div class="container-fluid px-lg-5">
             <nav class="navbar navbar-expand-xl align-items-center p-0">
