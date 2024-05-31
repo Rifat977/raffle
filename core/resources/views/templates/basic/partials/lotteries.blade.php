@@ -45,7 +45,7 @@
         <div class="col-md-3 mb-4">
             <div class="card custom-card shadow">
                 <div class="position-relative">
-                    <img class="card-img-top" src="https://cdn.pristinecompetitions.co.uk/wp-content/uploads/2024/05/large-Blade-Moretti-Starter-Pack-768x768.jpg" alt="image">
+                    <img class="card-img-top" src="{{ getImage(getFilePath('lottery') . '/' . @$phase->lottery->image, getFileSize('lottery')) }}" alt="image">
                     <div class="draw-date">DRAW {{ date('D d M', strtotime($phase->draw_date)) }}</div>
                 </div>
                 <div class="card-body p-3">
